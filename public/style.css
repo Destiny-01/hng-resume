@@ -1,0 +1,38 @@
+body {
+  padding: 48px;
+  background: rgb(12, 6, 6);
+}
+
+.col-md-8 {
+  padding: 72px !important;
+}
+.col-md-4 {
+  padding: 36px 124px !important;
+}
+
+p {
+  color: whitesmoke;
+}
+
+.col-md-12 h1 {
+  text-align: center;
+}
+
+.row img {
+  height: 350px;
+  background-blend-mode: lighten;
+  width: 250px;
+  margin-right: 48px;
+}
+
+footer {
+  padding: 8px;
+  width: 100%;
+  margin: 24px auto 0 420px;
+  position: fixed;
+  top: 560px;
+}
+a img {
+  height: 50px;
+  margin-right: 48px;
+}
