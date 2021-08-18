@@ -18,6 +18,10 @@ p {
   text-align: center;
 }
 
+a {
+  color: white;
+}
+
 .row img {
   height: 350px;
   background-blend-mode: lighten;

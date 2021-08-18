@@ -11,7 +11,10 @@
   <body>
     <div class="container">
       <% if (req.status=='success') { %>
-      <div class="alert alert-success"><%= req.message %></div>
+      <div class="alert fade show alert-dismissible alert-success">
+        <%= req.message %>
+        <a href="/">x</a>
+      </div>
       <% } %>
       <div class="row">
         <div class="col-md-4">
@@ -24,7 +27,12 @@
             development. Eager to learn and build cutting-edge application. To
             see more about me, check my cv now!
           </p>
-          <button class="btn btn-danger">See cv</button>
+          <button class="btn btn-danger">
+            <a
+              href="https://res.cloudinary.com/destiny01/raw/upload/v1629291342/Destiny_Aigbe_Resume_wnt0zz.docx"
+              >Download cv</a
+            >
+          </button>
         </div>
       </div>
       <div class="row">
@@ -73,11 +81,4 @@
       </footer>
     </div>
   </body>
-  <script>
-    if (window.location.href == "http://localhost:3000/contact") {
-      setTimeout(() => {
-        window.location = "/";
-      }, 6000);
-    }
-  </script>
 </html>
